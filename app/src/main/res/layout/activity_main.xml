@@ -34,8 +34,10 @@
                 android:id="@+id/PR1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#980000"
                 android:text="Pregunta 1"
-                android:textColor="#8C0202"
+                android:textAlignment="center"
+                android:textColor="#ECECEC"
                 android:textSize="34sp" />
 
             <TextView
@@ -44,16 +46,17 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="start"
-                android:text="¿Es un coche?"
+                android:text="¿Puede realizar un cambio de sentido en un lugar donde esté prohibido adelantar?  "
                 android:textColor="#000000"
                 android:textSize="24sp"
                 android:textStyle="italic" />
 
             <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/baixa" />
+                android:id="@+id/Imagen1"
+                android:layout_width="350dp"
+                android:layout_height="331dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/g0001" />
 
             <RadioGroup
                 android:id="@+id/Pregunta1"
@@ -64,25 +67,26 @@
                     android:id="@+id/Opcion1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Si" />
+                    android:text="a) Sí, excepto entre la puesta y la salida de sol, porque disminuye la visibilidad."
+                    android:textSize="17dp"
+                    />
 
                 <RadioButton
                     android:id="@+id/Opcion2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="No" />
+                    android:text="b) No, salvo que el cambio de sentido esté expresamente autorizado."
+                    android:textSize="17dp"
+                    />
 
                 <RadioButton
                     android:id="@+id/Opcion3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tal vez" />
+                    android:text="c) Sí, cuando la circulación en sentido contrario lo permita."
+                    android:textSize="17dp"
+                    />
 
-                <RadioButton
-                    android:id="@+id/Opcion4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Es un helicóptero" />
             </RadioGroup>
 
             <TextView
@@ -90,23 +94,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Pregunta 2"
-                android:textColor="#7E0000"
+                android:textColor="#ECECEC"
+                android:background="#980000"
+                android:textAlignment="center"
                 android:textSize="34sp" />
 
             <TextView
                 android:id="@+id/Pregunta02"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="¿Que significa esta señal?"
+                android:text="En un vehículo de autoescuela realizando clases prácticas, ¿quién es considerado el conductor?"
                 android:textColor="#000000"
                 android:textSize="24sp"
                 android:textStyle="italic" />
 
             <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/images" />
+                android:id="@+id/Imagen2"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/g1052" />
 
             <RadioGroup
                 android:id="@+id/Pregunta2"
@@ -117,25 +124,140 @@
                     android:id="@+id/Opcion1.2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="No obedecerla" />
+                    android:text="a) Tanto al alumno como al profesor."
+                    android:textSize="17dp"
+                    />
 
                 <RadioButton
                     android:id="@+id/Opcion2.2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Obras" />
+                    android:text="b) El alumno, ya que maneja el volante."
+                    android:textSize="17dp"
+                    />
 
                 <RadioButton
                     android:id="@+id/Opcion3.2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Parar" />
+                    android:text="c) El profesor, por ser responsable de los mandos adicionales."
+                    android:textSize="17dp"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/PR3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pregunta 3"
+                android:background="#980000"
+                android:textAlignment="center"
+                android:textColor="#ECECEC"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/Pregunta03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Con esta señalización, ¿a qué velocidad debe circular?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/Imagen3"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/g0004" />
+
+            <RadioGroup
+                android:id="@+id/Pregunta3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/Opcion4.2"
+                    android:id="@+id/Opcion1.3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Quitarla y llevartela a casa" />
+                    android:text="Obligatoriamente a 30 km/h"
+                    android:textSize="17dp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Opcion2.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Al menos a 30 km/h."
+                    android:textSize="17dp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Opcion3.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) A 30 km/h, como recomendación, durante el tramo que subsista el peligro."
+                    android:textSize="17dp"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/PR4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pregunta 4"
+                android:background="#980000"
+                android:textAlignment="center"
+                android:textColor="#ECECEC"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/Pregunta04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Una línea blanca continua sobre la calzada, sensiblemente más ancha que en el caso general..."
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/Imagen4"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/g0016" />
+
+            <RadioGroup
+                android:id="@+id/Pregunta4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/Opcion1.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) indica la existencia de un carril especial."
+                    android:textSize="17dp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Opcion2.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) sirve para delimitar, únicamente, los carriles bus."
+                    android:textSize="17dp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Opcion3.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) indica el borde de la calzada."
+                    android:textSize="17dp"
+                    />
+
             </RadioGroup>
 
             <Button
