@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#39CF03"
+    android:background="#B0E1E1E1"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -68,24 +68,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) Sí, excepto entre la puesta y la salida de sol, porque disminuye la visibilidad."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) No, salvo que el cambio de sentido esté expresamente autorizado."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) Sí, cuando la circulación en sentido contrario lo permita."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -93,10 +90,10 @@
                 android:id="@+id/PR2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 2"
-                android:textColor="#ECECEC"
                 android:background="#980000"
+                android:text="Pregunta 2"
                 android:textAlignment="center"
+                android:textColor="#ECECEC"
                 android:textSize="34sp" />
 
             <TextView
@@ -125,24 +122,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) Tanto al alumno como al profesor."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) El alumno, ya que maneja el volante."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) El profesor, por ser responsable de los mandos adicionales."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -150,8 +144,8 @@
                 android:id="@+id/PR3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 3"
                 android:background="#980000"
+                android:text="Pregunta 3"
                 android:textAlignment="center"
                 android:textColor="#ECECEC"
                 android:textSize="34sp" />
@@ -182,24 +176,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Obligatoriamente a 30 km/h"
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) Al menos a 30 km/h."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) A 30 km/h, como recomendación, durante el tramo que subsista el peligro."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -207,8 +198,8 @@
                 android:id="@+id/PR4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 4"
                 android:background="#980000"
+                android:text="Pregunta 4"
                 android:textAlignment="center"
                 android:textColor="#ECECEC"
                 android:textSize="34sp" />
@@ -239,24 +230,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) indica la existencia de un carril especial."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) sirve para delimitar, únicamente, los carriles bus."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) indica el borde de la calzada."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -264,8 +252,8 @@
                 android:id="@+id/PR5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 5"
                 android:background="#980000"
+                android:text="Pregunta 5"
                 android:textAlignment="center"
                 android:textColor="#ECECEC"
                 android:textSize="34sp" />
@@ -296,24 +284,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) Obligatoriamente uno en el lado derecho, pero pueden llevar dos."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) Siempre deben llevar dos espejos, uno en cada lado."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) Un espejo exterior izquierdo si no superan los 100 km/h y dos, uno en cada lado, si la velocidad es mayor."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -322,8 +307,8 @@
                 android:id="@+id/PR6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 6"
                 android:background="#980000"
+                android:text="Pregunta 6"
                 android:textAlignment="center"
                 android:textColor="#ECECEC"
                 android:textSize="34sp" />
@@ -354,24 +339,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) 0,25 miligramos de alcohol por litro de aire espirado."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) 0,3 miligramos de alcohol por litro de aire espirado."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) 0,15 miligramos de alcohol por litro de aire espirado."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -380,8 +362,8 @@
                 android:id="@+id/PR7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 7"
                 android:background="#980000"
+                android:text="Pregunta 7"
                 android:textAlignment="center"
                 android:textColor="#ECECEC"
                 android:textSize="34sp" />
@@ -412,24 +394,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) Apagar el fuego."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) Sacar rápidamente a los heridos."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) Ir a buscar ayuda."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -438,8 +417,8 @@
                 android:id="@+id/PR8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 8"
                 android:background="#980000"
+                android:text="Pregunta 8"
                 android:textAlignment="center"
                 android:textColor="#ECECEC"
                 android:textSize="34sp" />
@@ -470,24 +449,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) Continuar, obedeciendo al semáforo de la derecha."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) Detenerse, obedeciendo al semáforo situado a la izquierda."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) Sólo detenerse si hay peatones cruzando."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -496,8 +472,8 @@
                 android:id="@+id/PR9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 9"
                 android:background="#980000"
+                android:text="Pregunta 9"
                 android:textAlignment="center"
                 android:textColor="#ECECEC"
                 android:textSize="34sp" />
@@ -528,24 +504,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) Sí, alejado se podrá apreciar mejor."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) Sí, debe estar al menos a 100 metros."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) No, se debe colocar en la parte más alta posible del vehículo inmovilizado."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
@@ -554,8 +527,8 @@
                 android:id="@+id/PR10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pregunta 10"
                 android:background="#980000"
+                android:text="Pregunta 10"
                 android:textAlignment="center"
                 android:textColor="#ECECEC"
                 android:textSize="34sp" />
@@ -586,24 +559,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a) A la máxima velocidad permitida en la autopista."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion2.10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b) Siempre muy despacio para entrar con seguridad."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
                 <RadioButton
                     android:id="@+id/Opcion3.10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c) A la velocidad adecuada que permita incorporarse con seguridad."
-                    android:textSize="17dp"
-                    />
+                    android:textSize="17dp" />
 
             </RadioGroup>
 
